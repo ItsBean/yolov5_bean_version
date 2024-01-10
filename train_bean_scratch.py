@@ -106,8 +106,6 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
 
         # Process custom dataset artifact link
         data_dict = loggers.remote_dataset
-        # if resume:  # If resuming runs from remote artifact
-        #     weights, epochs, hyp, batch_size = opt.weights, opt.epochs, opt.hyp, opt.batch_size
 
     # Config
     plots = not evolve and not opt.noplots  # create plots

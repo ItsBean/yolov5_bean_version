@@ -665,10 +665,10 @@ class LoadImagesAndLabels(Dataset):
 
         hyp = self.hyp
         # bean's debugging sentence:
-        if self.mosaic and self.augment:
-            print("it's for train_loader's getitem.")
-        if not self.mosaic and not self.augment:
-            print("it's for val_loader's getitem.")
+        # if self.mosaic and self.augment:
+            # print("it's for train_loader's getitem.")
+        # if not self.mosaic and not self.augment:
+        #     print("it's for val_loader's getitem.")
         mosaic = self.mosaic and random.random() < hyp['mosaic']
         if mosaic:  # this is ignored
             # Load mosaic -

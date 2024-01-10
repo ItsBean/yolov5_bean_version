@@ -1,3 +1,7 @@
+i added two python file : train_bean_version.py and detect_img_bean_version.py
+the first one is for training the model from scratch
+and the second one is for detecting img using the trained model
+
 <div align="center">
   <p>
     <a align="center" href="https://ultralytics.com/yolov5" target="_blank">
